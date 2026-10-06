@@ -84,5 +84,8 @@
 <symbol id="icon-telegram" viewBox="0 0 24 24" fill="none">
     <path fill="currentColor" d="M24 2 0 13.25l7.6699 2.3672L19.5 6.375 10.5017 16.4913l73e-4 23e-4-9e-3-23e-4V22l4.3013-4.1817 5.4488 1.6817z" />
 </symbol>
+<symbol id="burger" viewBox="0 0 24 24">
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+</symbol>
     </defs>
 </svg>
