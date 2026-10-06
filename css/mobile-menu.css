@@ -130,6 +130,7 @@
 
 .mobile-menu-socials {
   justify-content: flex-start;
+  gap: 40px;
 }
 
 /* Мобільне меню існує тільки на mobile */

@@ -9,7 +9,6 @@
 
 .features-item {
   width: 100%;
-  text-align: center;
 }
 
 .features-icon-container {
@@ -27,6 +26,7 @@
 }
 
 .features-text {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -36,7 +36,6 @@
 @media screen and (min-width: 768px) {
   .features-item {
     width: calc((100% - 24px) / 2);
-    text-align: left;
   }
 }
 
@@ -68,5 +67,9 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+  }
+
+  .features-text {
+    font-weight: 400;
   }
 }

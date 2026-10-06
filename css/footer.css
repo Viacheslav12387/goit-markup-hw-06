@@ -13,15 +13,19 @@
   column-gap: 24px;
 }
 
-.footer-info,
 .footer-social,
 .footer-subscribe {
   text-align: center;
 }
 
+.footer-subscribe {
+  width: 100%;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 16px;
+  text-align: center;
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -68,7 +72,7 @@
 }
 
 .footer-subscribe-input {
-  width: 264px;
+  width: 100%;
   height: 40px;
   padding: 8px 16px;
 
@@ -132,14 +136,21 @@
     padding: 0 108px;
   }
 
-  .footer-info,
   .footer-social,
   .footer-subscribe {
     text-align: left;
   }
 
+  .footer-subscribe {
+    width: auto;
+  }
+
   .footer-logo {
     display: inline-block;
+  }
+
+  .footer-subscribe-input {
+    width: 264px;
   }
 
   .footer-social .socials-list {
@@ -161,11 +172,12 @@
 
   .footer-container {
     flex-wrap: nowrap;
+    column-gap: 0;
     padding: 0 15px;
   }
 
   .footer-info {
-    margin-right: 96px;
+    margin-right: 120px;
   }
 
   .footer-subscribe {

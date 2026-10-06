@@ -21,7 +21,7 @@
   display: inline-block;
   padding: 16px 0;
 
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -88,7 +88,7 @@
 }
 
 .nav-link.active::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -143,6 +143,10 @@
 
   .header-address {
     margin-left: auto;
+  }
+
+  .contacts-list {
+    gap: 12px;
   }
 }
 
